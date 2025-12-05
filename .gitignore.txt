@@ -1,0 +1,63 @@
+# ============================
+# Eclipse IDE
+# ============================
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.classpath
+.project
+
+# ============================
+# Maven
+# ============================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# ============================
+# Java
+# ============================
+*.class
+*.log
+
+# ============================
+# OS-specific files
+# ============================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# ============================
+# IntelliJ (in case you use it later)
+# ============================
+.idea/
+*.iml
+*.iws
+
+# ============================
+# Tomcat / Server
+# ============================
+/logs/
+/work/
+/temp/
+
+# ============================
+# Build / Cache
+# ============================
+/bin/
+/out/
+
+# ============================
+# VS Code (optional)
+# ============================
+.vscode/

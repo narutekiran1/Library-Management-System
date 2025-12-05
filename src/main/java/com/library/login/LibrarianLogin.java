@@ -16,7 +16,7 @@ public class LibrarianLogin extends HttpServlet {
 	String pass=req.getParameter("password");
 	
 	if(user.equals("admin@library.com") && pass.equals("admin@library1234")) {
-		req.getRequestDispatcher("index.html").forward(req, resp);
+		req.getRequestDispatcher("index.jsp").forward(req, resp);
 	}
 	else {
 		req.getRequestDispatcher("/librarianLogin").include(req, resp);

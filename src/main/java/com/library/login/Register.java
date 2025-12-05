@@ -38,7 +38,7 @@ public class Register extends HttpServlet {
 				resp.getWriter().print("<html><body><script>"
 						+ "alert('data inserted succesfully')"
 						+ "</script></body></html>");
-			RequestDispatcher rs= req.getRequestDispatcher("login.html");
+			RequestDispatcher rs= req.getRequestDispatcher("login.jsp");
 			rs.forward(req, resp);
 			}else {
 				RequestDispatcher rs=req.getRequestDispatcher("/register");

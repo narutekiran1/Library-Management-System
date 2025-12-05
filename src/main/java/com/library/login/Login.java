@@ -33,12 +33,12 @@ public class Login extends HttpServlet{
 	   if(rs.next()) {
 		   System.out.println(rs.getString(3));
 		   if(email.equals(rs.getString(3)) && pass.equals(rs.getString(4))) {
-			   req.getRequestDispatcher("index.html").forward(req, resp);
+//			   req.getRequestDispatcher("index.html").forward(req, resp);
 		   }
 		   else {
 			   System.out.println("login failed");
 			   
-			   req.getRequestDispatcher("login.html").include(req, resp);
+			   req.getRequestDispatcher("login.jsp").include(req, resp);
 		   }
 		  
 	   }
